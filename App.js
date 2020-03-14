@@ -17,11 +17,14 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import Greeting from './Greeting';
 import MyApp2 from './MyApp2';
+// import MyApp3 from './MyApp3';
+// import MyApp5 from './MyApp5';
+import MyApp10 from './MyApp10' 
 
 const App = ()  => { 
   return (
     <>
-    <MyApp2 />
+    <MyApp10 />
     </>
   );
 };
