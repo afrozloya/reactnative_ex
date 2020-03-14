@@ -7,7 +7,7 @@ export default class FetchExample extends React.Component {
  }     
 
   componentDidMount(){
-    return fetch('http://newsapi.org/v2/everything?q=narendra&from=2020-02-20&sortBy=publishedAt&apiKey=4431feeb1f68434185f389172a2274f9')
+    return fetch('http://newsapi.org/v2/everything?q=narendra&from=2020-02-20&sortBy=publishedAt&apiKey=xyz')
       .then((response) => response.json())
       .then((responseJson) => {
           console.log(responseJson.articles);
