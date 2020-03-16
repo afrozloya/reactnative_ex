@@ -19,12 +19,12 @@ import Greeting from './Greeting';
 import MyApp2 from './MyApp2';
 // import MyApp3 from './MyApp3';
 // import MyApp5 from './MyApp5';
-import MyApp10 from './MyApp10' 
+import MyApp15 from './MyApp15' 
 
 const App = ()  => { 
   return (
     <>
-    <MyApp10 />
+    <MyApp15 />
     </>
   );
 };
